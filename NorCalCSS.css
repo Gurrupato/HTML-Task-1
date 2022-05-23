@@ -1,3 +1,55 @@
-h2{
-   text-decoration: underline;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+
+img {
+    width: 200px;
+
+}
+
+li {
+    display: inline;
+    font-size: 35px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+h1 {
+    font-size: 85px;
+    font-weight: lighter;
+}
+
+.marco {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.cuadro {
+    display: inline-block;
+    float: left;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.cuadrotexto {
+    display: inline-block;
+    float: left;
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.textomail {
+    font-size: xx-large;
 }
