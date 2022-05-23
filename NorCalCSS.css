@@ -25,6 +25,19 @@ h1 {
     font-weight: lighter;
 }
 
+.tituloindex {
+    font-size: 40px;
+    padding-left: 350px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+td {
+    padding-left: 180px;
+}
+
 .marco {
     display: inline-block;
     float: left;
@@ -52,4 +65,8 @@ h1 {
 
 .textomail {
     font-size: xx-large;
+}
+
+table {
+    font-size: 25px;
 }
