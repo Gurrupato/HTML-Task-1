@@ -15,16 +15,21 @@
 }
 
 .logotype {
-    margin-top: 100px;
-    float: left;
+    position: absolute;
+    top: 1%;
+    left: 0%;
     width: 200px;
 }
 
 .title {
     position: absolute;
-    top: 2%;
-    left: 10%;
+    text-align: center;
+    background-color: red;
+    width: 90%;
+    top: 3%;
+    left: 5%;
     font-size: 30px;
+    color: white;
 }
 
 .bkcimg {
@@ -35,15 +40,18 @@
 
 .nav {
     position: absolute;
-    top: 2%;
-    right: 10%;
+    top: 20%;
+    left: 0%;
     font-size: 50px;
-    margin: 50px;
+}
+
+ul {
+    width: 5000px;
 }
 
 li {
-    display: inline;
     font-size: 35px;
+    margin-top: 25px;
 }
 
 .frame {
@@ -56,7 +64,7 @@ li {
 
 .pagetitle {
     text-align: center;
-    background-color: rgb(76, 86, 231);
+    background-color: red;
     color: white;
     margin: 0px;
     padding: 10px;
