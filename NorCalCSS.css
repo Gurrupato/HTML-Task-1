@@ -36,7 +36,7 @@ td {
     padding-left: 180px;
 }
 
-.marco {
+.frame {
     display: inline-block;
     float: left;
     width: 100%;
@@ -44,7 +44,7 @@ td {
     padding: 10px;
 }
 
-.cuadro {
+.box {
     display: inline-block;
     float: left;
     width: 200px;
@@ -52,7 +52,7 @@ td {
     padding: 10px;
 }
 
-.cuadrotexto {
+.textframe {
     display: inline-block;
     float: left;
     width: 1000px;
