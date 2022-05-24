@@ -10,14 +10,13 @@
     margin-left: 5%;
     margin-right: 5%;
     height: 30%;
+    margin-top: 5%;
     align-self: center;
 }
 
 .logotype {
-    position: absolute;
-    top: 45%;
-    right: 10%;
-    float: right;
+    margin-top: 100px;
+    float: left;
     width: 200px;
 }
 
@@ -35,9 +34,16 @@
 }
 
 .nav {
-    float: left;
+    position: absolute;
+    top: 2%;
+    right: 10%;
     font-size: 50px;
     margin: 50px;
+}
+
+li {
+    display: inline;
+    font-size: 35px;
 }
 
 .frame {
@@ -71,13 +77,27 @@
 }
 
 .notselected {
-    text-decoration: underline;
-    color: rgb(114, 159, 207);
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
 }
 
 .selected {
     text-decoration: none;
-    color: black;
+    color: white;
+    background-color: green;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
+}
+
+.linkmail {
+    color: blue;
 }
 
 .textomail {
