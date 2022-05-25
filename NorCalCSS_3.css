@@ -180,5 +180,9 @@ table{
 }
 
 .maps{
-    display: flex;
+    margin: 50px;
+    margin-left: 100px;
+    float: left;
+    font-size: 25px;
+    width: 80%;
 }
