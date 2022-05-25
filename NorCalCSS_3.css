@@ -45,11 +45,11 @@
     font-size: 50px;
 }
 
-ul {
-    width: 5000px;
+.navbuttons {
+    width: 500px;
 }
 
-li {
+.navbutton {
     font-size: 35px;
     margin-top: 25px;
 }
@@ -58,8 +58,8 @@ li {
     margin: 50px;
     margin-left: 100px;
     float: left;
-    font-size: 30px;
-    width: 70%;
+    font-size: 25px;
+    width: 80%;
 }
 
 .pagetitle {
@@ -106,4 +106,24 @@ li {
 
 .textomail {
     font-size: 40px;
+}
+
+th{
+    font-size: 40px;
+    border: 1px solid grey;
+    padding: 10px 15px;
+}
+
+td{
+    font-size: 30px;
+    border: 1px solid grey;
+    padding: 10px 15px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.safety{
+    font-size: 15px;
 }
