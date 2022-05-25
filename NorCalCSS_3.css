@@ -169,3 +169,16 @@ table{
     padding: 7px;
     font-size: 14px;    
 }
+
+.form {
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 600px;
+}
+
+.maps{
+    display: flex;
+}

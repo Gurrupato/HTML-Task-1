@@ -1,80 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+    <html lang="en">
 
-<head>
-  <meta charset="utf-8">
-  <title>Registration</title>
-  <link rel="stylesheet" href="NorCalCSS_3.css">
-</head>
+    <head>
+    <meta charset="utf-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="NorCalCSS_3.css">
+    </head>
 
-<body>
-  <div class="title">
-    <h1>NorCal Time Trial Series</h1>
-  </div>
-
-  <div class="headframe">
-    <img class="bkcimg" src="Imagenes/Alternative Image.jpg" alt="Imagen de un Coche">
-
-    <div>
-      <img class="logotype" src="Imagenes/LOGO.png" alt="Logotipo de la Empresa">
+    <body>
+    <div class="title">
+      <h1>NorCal Time Trial Series</h1>
     </div>
 
-    <div class="pagetitle">
-      <h1>Please Register</h1>
+    <div class="headframe">
+      <img class="bkcimg" src="Imagenes/Alternative Image.jpg" alt="Imagen de un Coche">
+
+      <div>
+        <img class="logotype" src="Imagenes/LOGO.png" alt="Logotipo de la Empresa">
+      </div>
+
+      <div class="pagetitle">
+        <h1>Please Register</h1>
+      </div>
+
+      </div>
+
+      <nav class="nav">
+       <ul class="navbuttons">
+        <li class="navbutton"><a class="notselected" href="index.html">Home</a></li>
+        <li class="navbutton"><a class="notselected" href="About.html">About</a></li>
+        <li class="navbutton"><a class="notselected" href="Contact.html">Contact</a></li>
+        <li class="navbutton"><a class="notselected" href="Information.html">Information</a></li>
+        <li class="navbutton"><a class="notselected" href="Safety Rules.html">Safety</a></li>
+        <li class="navbutton"><a class="selected" href="Registration.html">Register</a></li>
+        </ul>
+      </nav>
     </div>
 
-  </div>
-
-  <nav class="nav">
-    <ul class="navbuttons">
-      <li class="navbutton"><a class="notselected" href="index.html">Home</a></li>
-      <li class="navbutton"><a class="notselected" href="About.html">About</a></li>
-      <li class="navbutton"><a class="notselected" href="Contact.html">Contact</a></li>
-      <li class="navbutton"><a class="notselected" href="Information.html">Information</a></li>
-      <li class="navbutton"><a class="notselected" href="Safety Rules.html">Safety</a></li>
-      <li class="navbutton"><a class="selected" href="Registration.html">Register</a></li>
-    </ul>
-  </nav>
-
-  
-    <div action="show_data" method="get" class='form-row'>
+    <form action="show_data.html" method="get" class='form-row'>
       <label for='first-name'>Fisrt Name</label>
       <input id='first-name' name='first-name' type='text' />
-      
+    
       <label for='last-name'>Last Name</label>
       <input id='last-name' name='last-name' type='text' />
-      
+    
       <label for='email'>Email</label>
       <input id='email' name='email' type='email' placeholder='joe@example.com' />
-      
+    
       <label for='Street-Adress'>Street Adress</label>
       <input id='Street-Adress' name='Street-Adress' type='text' />
-      
+    
       <label for='city'>City</label>
       <input id='city' name='city' type='text' />
-      
+    
       <label for='zipcode'>Zipcode</label>
       <input id='zipcode' name='zipcode' type='text' />
-      
+    
       <label for='age'>Age</label>
       <input id='age' name='age' type='text' />
-      
+    
       <label for='gender'>Gender</label>
       <select id='gender' name='gender'>
         <option value='male'>Male</option>
         <option value='female'>Female</option>
       </select>
-
+    
       <label for='phone'>Phone Number</label>
       <input id='phone' name='phone' type='text' />
-
+    
       <label for='membership'>Motorsports Organization Membership?</label>
       <select id='membership' name='membership'>
         <option value='SCCA'>Sports Car Club of America (SCCA)</option>
         <option value='NASA'>National Autosport Association (NASA)</option>
         <option value='none'>None</option>
       </select>
-
+    
       <label for='experience'>Previous Competitive Experience</label>
       <select id='experience' name='experience'>
         <option value='none-years'>None</option>
@@ -83,7 +83,7 @@
         <option value='two-years'>Two Years</option>
         <option value='over-years'>Over Two Years</option>
       </select>
-
+    
       <label for='license'>Racing License</label>
       <select id='license' name='license'>
         <option value='none-license'>None</option>
@@ -91,12 +91,30 @@
         <option value='license-NASA'>NASA</option>
         <option value='license-FIA'>FIA</option>
       </select>
-
-      <button>Submit</button>
-    </div>
-
     
-  </div>
-</body>
+      <p>I agree that I will abide by all the rules of the NorCal Time Trial Series (NCTTS). I recognize that Motorsports
+        are
+        inherently dangerous. I hereby release, discharge, and/or otherwise indemnify NCTTS, their employees and associated
+        personnel and volunteers, including the facilities used for events, against any claim by or on behalf of the
+        registrant
+        as a result of my participation in the series.</p>
+    
+      <p>By entering your name below, I hereby agree and authorize the above.</p>
+      <div class='form'>
+        <label for='full-name'>Name</label>
+        <input id='full-name' name='full-name' type='text' />
+    
+        <label for='date'>Date</label>
+        <input id='date' name='date' type='text' />
+      </div>
+    
+    
+      <button type="submit">Submit</button>
+    
+    
+    </form>
+    
+      
+   </body>
 
-</html>
+  </html>
